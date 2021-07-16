@@ -1,0 +1,29 @@
+{
+  "name": "@persona/smtp-server",
+  "version": "0.1.0",
+  "description": "the receive-only email server for Persona project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard",
+    "test": "npm run lint && echo \"Warning: no test specified\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/project-persona/smtp-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/project-persona/smtp-server/issues"
+  },
+  "homepage": "https://github.com/project-persona/smtp-server#readme",
+  "dependencies": {
+    "@persona/infra": "git+https://github.com/project-persona/infra.git"
+  },
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "standard": "^16.0.3"
+  }
+}
