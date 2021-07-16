@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/project-persona/smtp-server#readme",
   "dependencies": {
-    "@persona/infra": "git+https://github.com/project-persona/infra.git"
+    "@persona/infra": "git+https://github.com/project-persona/infra.git",
+    "mailparser": "^3.2.0",
+    "smtp-server": "^3.9.0"
   },
   "devDependencies": {
     "husky": "^7.0.1",
